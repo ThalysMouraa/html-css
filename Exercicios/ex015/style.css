@@ -1,0 +1,28 @@
+        @charset "UTF-8"
+       
+;body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+
+
+
+
+
+        h1{
+            color: rgb(214, 40, 121);
+            background-color: aqua;
+    
+        }
+        h2{
+            color: darkred;
+            background-color: rgb(27, 211, 97);
+        }
+        p{
+            text-align: justify;
+        }
+
+    
