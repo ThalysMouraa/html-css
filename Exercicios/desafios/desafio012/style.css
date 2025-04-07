@@ -57,7 +57,7 @@ section.normal{
 }
 
 section {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: var(--font3);
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -65,18 +65,41 @@ section {
     padding-left: 25px;
 }
 
-section.imagem{
+section p {
+    padding-bottom: 1.5em;
+}
 
+section.imagem {
+    
     background-color:brown;
     color: white;
+    box-shadow: inset 6px 6px 13px black;
+    background-attachment: fixed
 
 }
 
-section.imagem > p{
-    padding: 7px;
+section.imagem > p {
+    
+    padding: 5px;
     display: inline-block;
-    width: 300px;
-    background-color: rgba(0, 0, 0, 0.377);
+    background-color: rgba(0, 0, 0, 0.589);
+    text-shadow: 2px 2px 0px black;
+}
+
+section#img01{
+        background-image: url(imagens/background001.jpg);
+        background-position: right center;
+        background-size: cover;
+}
+
+
+
+section#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+
+
 }
 
 footer{
